@@ -1,0 +1,221 @@
+*{ margin: 0px; 
+	padding: 0px; }
+body {background:white;
+}
+
+#header {
+	width:100%;
+	height:70px;
+	background:#C22240;
+}
+
+
+#navbar{ 
+	width:1000px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	margin-left: 200px;
+}
+
+#navbar> li{
+	width:200px;
+	list-style: none;
+	float:left;}
+	li>a{display: block; 
+	color:white; 
+	line-height: 80px;
+	text-align: center; 
+	font-family: Century gothic; 
+	font-size: 1.25em; 
+	text-decoration: none;}
+	li>a:hover,
+	li>a:focus{
+		background:#fdb335; 
+		color:#333;
+	}
+
+#logo{
+	width: 200px;
+	height: 30px; 
+	float: left; 
+	margin-top: -40px; 
+	padding-left: 20px;
+}
+@media screen and (max-width: 1260px){
+		
+#navbar{ 
+	width:1000px;
+	height: 80px;
+	float: right;
+}
+#navbar> li{
+	width:160px;
+	list-style: none;
+	float:left;
+	border-right:1px solid gray;
+	border-left: 
+}
+	li>a{
+		display: block; 
+		color:white; 
+		line-height: 80px;
+		text-align: center; 
+		font-family: Century gothic; 
+		font-size: 1.250em; 
+		text-decoration: none;
+	}
+
+#logo{
+	width:200px; 
+	height: 30px; 
+	float: left; 
+	margin-top: -40px; 
+	padding-left: 20px;
+}
+
+}
+ #title{
+ 	font-family: Century gothic; 
+ 	font-size: 6.250em;
+ 	text-align: center;
+ 	color:#fdb335;
+ }
+
+.footer {
+  color:white ;
+  font-size: 1.125em;
+  padding: 19px 27px;
+  background-color: #C22240;
+  font-family: 'century Gothic', sans-serif;
+  margin-top:90px;
+}
+
+
+#Brand{
+	font-family: Century gothic; 
+ 	font-size: 1.563em;
+ 	text-align: center;
+ 	color:#C22240;
+ 	padding-right: 50px;
+  
+}
+
+#Brand1{
+	font-family: Century gothic; 
+ 	font-size: 1.875em;
+ 	text-align: center;
+ 	color:#C22240;
+ 	padding-right: 50px;
+ 	margin:5px;
+ 	background-color: #fdb335;
+  
+}
+
+#Brandp{
+	font-family: Century gothic; 
+ 	font-size: 0.938em;
+ 	text-align: center;
+ 	color:black;
+ 	padding-right: 10px; 
+}
+
+
+#letrero {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.comida1{
+	
+	font-family: Century gothic; 
+ 	font-size: 1.563em;
+ 	text-align: left;
+ 	color:#C22240;
+ 	padding-left:70px;
+
+}
+
+.comida2{
+	
+	font-family: Century gothic; 
+ 	font-size: 1.563em;
+ 	text-align: left;
+ 	color:#C22240;
+ 	padding-left:70px;
+
+}
+
+
+
+
+#receta1{
+font-family: Century gothic; 
+ 	font-size: 0.938em;
+ 	text-align: left;
+ 	color:#C22240;
+ 	padding-left:20px;
+ 	padding-bottom: 30px;
+ 	margin-top: 5px;
+ 	margin-right: 35px;
+ 	margin-left: 35px;
+ 	margin-bottom: 5px;
+ 	background-color: #fdb335; 
+
+ 	 ;
+	
+}
+
+
+#receta{
+font-family: Century gothic; 
+ 	font-size: 0.938em;
+ 	text-align: left;
+ 	color:#C22240;
+ 	padding-left:20px;
+ 	margin-top: 5px;
+ 	margin-right: px;
+ 	margin-left: 35px;
+ 	margin-bottom: 5px;
+ 	background-color: #fdb335; 
+ 	 
+
+}
+
+.row {
+  display: flex;
+}
+
+
+
+.pnutrients{
+	position: absolute;
+	top: 300px;
+	font-family: century gothic;
+	font-weight: bold;
+	font-size: 17px;
+	color: #fdb335;
+	padding-left: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
